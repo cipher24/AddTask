@@ -1,0 +1,41 @@
+.main-container {
+    border: 1px solid black;
+    display: block;
+    height: 150px;
+    width: 420px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.list {
+    margin: 0 auto;
+    height: 900px;
+    width: 500px;
+    border: 2px dotted green;
+}
+form {
+    width: 390px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 5px;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    padding: 2px;
+    margin: 2px;
+    background-color: #cc7d8d
+}
+input:focus::placeholder {
+    color: transparent;
+}
+#submit {
+    margin-left: 10px;
+}
